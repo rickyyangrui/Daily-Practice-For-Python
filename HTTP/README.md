@@ -18,6 +18,7 @@ HTTP是一个`无状态`的协议，也就是说服务器不会去维护与客�
 HTTP协议通常承载于TCP协议之上，有时也承载于TLS或SSL协议层之上，这个时候，就成了我们常说的HTTPS.默认HTTP的端口号为80，HTTPS的端口号为443。
 
 * 工作流程：
+
 1、客户端连接到Web服务器
 
 一个HTTP客户端，通常是浏览器，与Web服务器的HTTP端口（默认为80）建立一个TCP套接字连接。例如，http://www.oakcms.cn。
@@ -58,6 +59,10 @@ Web服务器解析请求，定位请求资源。服务器将资源复本写到TC
 * 通信使用明文（不加密），内容可能会被窃听
 * 不验证通信方身份，可能遭到伪装
 * 无法验证报文完整性，可能被篡改
+
+## HTTP优化
+* [利用负载均衡优化和加速HTTP应用](https://www.cnblogs.com/kevingrace/p/6137975.html)
+* [利用HTTP Cache来优化网站](https://www.cnblogs.com/cocowool/archive/2011/08/22/2149929.html)
 
 ## HTTP之请求消息Request和Response
 [很全的解析](https://www.cnblogs.com/ranyonsue/p/5984001.html)
